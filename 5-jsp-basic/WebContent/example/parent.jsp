@@ -19,8 +19,12 @@
 		request.setAttribute("title", "This is Title");
 		String subject = "XX";
 	%>
+	<!-- 
+		참고자료: 읽어보세요.
+		https://stackoverflow.com/questions/16593952/java-variable-across-multiple-include-blocks-variable-cannot-be-resolved
+	 -->
 	<div>
-		<%@ include file="child.jsp" %>
+		<%@ include file="child.jspf" %>
 	</div>
 	<!-- 
 		참고자료: 읽어보세요.
