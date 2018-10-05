@@ -15,6 +15,7 @@
 		<li><a href="public-data">Public Data</a></li>
 		<li><a href="member-only-data">Member Only Data</a></li>
 		<li><a href="login">Login</a></li>
+		<li><a href="login?action=logout">Logout</a></li>
 	</ul>
 
 </body>
